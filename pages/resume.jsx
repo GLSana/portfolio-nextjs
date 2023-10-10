@@ -17,10 +17,10 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>Akila Santhush</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/ akila-santhush-6095631bb/'
               target='_blank'
               rel='noreferrer'
             >
@@ -38,7 +38,7 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Proven Leadership <span className='px-1'>|</span> Web Development{' '}
+              UI/UX Design <span className='px-1'>|</span> Web Development{' '}
               <span className='px-1'>|</span> Complex Problem Solving
             </p>
           </div>
@@ -66,30 +66,36 @@ const resume = () => {
           <p className='py-2'>
             <span className='font-bold'>Technical Skills</span>
             <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML
-            <span className='px-2'>|</span>CSS
+            <span className='px-2'>|</span> UI/UI Designer
+            <span className='px-2'>|</span>Figma
             <span className='px-2'>|</span>Javascript
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
             <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Redux
+            <span className='px-2'>|</span>Mongo DB
+            <span className='px-2'>|</span>Typescript
             <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
+            <span className='px-2'>|</span> Framer Motion
+            <span className='px-2'>|</span> Solidity
           </p>
           <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
-            Practitioner
+            <span className='font-bold'>Other Skills</span>
+            <span className='px-2'>|</span>Gamer
+            <span className='px-2'>|</span>Singer 
+            <span className='px-2'>|</span>Guitarist 
+            <span className='px-2'>|</span>Keyboard Player 
+            <span className='px-2'>|</span>Boxer 
+            
+            
+
           </p>
         </div>
 
-        <h5 className='text-center underline text-[18px] py-4'>
+        {/* <h5 className='text-center underline text-[18px] py-4'>
           Professional Experience
-        </h5>
+        </h5> */}
         {/* Experience */}
-        <div className='py-6'>
+        {/* <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
             INFINITE TECH
@@ -115,11 +121,11 @@ const resume = () => {
               ensuring a smooth migration process.
             </li>
           </ul>
-        </div>
+        </div> */}
 
 
         {/* Personal Experience */}
-        <div className='py-6'>
+        {/* <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
               Teaching & Mentoring Web Development
@@ -139,15 +145,15 @@ const resume = () => {
               concepts and code reviews.
             </li>
           </ul>
-        </div>
+      </div> */}
 
         {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
+        {/* <h5 className='text-center underline text-[18px] py-4'>
           Other Professional Experience
-        </h5>
+        </h5> */}
       
         {/* Experience */}
-        <div className='py-6'>
+        {/* <div className='py-6'>
           <p className='italic'>
             <span className='font-bold'>CITY OF SHERMAN, TX</span>
             <span className='px-2'>|</span>Sherman, TX
@@ -181,7 +187,7 @@ const resume = () => {
               Support, among others.
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );
