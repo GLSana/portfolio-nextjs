@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Clint | Front-End Developer</title>
+        <title>Akila Santhush | UI/UX Engineer and Web Developer</title>
         <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
         <link rel="icon" href="/fav.png" />
       </Head>

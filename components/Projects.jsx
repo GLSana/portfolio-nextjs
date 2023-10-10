@@ -26,7 +26,7 @@ const Projects = () => {
             title='Nike Landing Page'
             backgroundImg={cryptoImg}
             projectUrl='/crypto'
-            tech='React JS'
+            tech='Next JS'
 
           />
           <ProjectItem
