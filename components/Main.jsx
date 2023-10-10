@@ -21,8 +21,7 @@ const Main = () => {
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
-              href='https://www.linkedin.com/in/
-              akila-santhush-6095631bb/'
+              href='https://www.linkedin.com/in/akila-santhush-6095631bb/'
               target='_blank'
               rel='noreferrer'
             >
