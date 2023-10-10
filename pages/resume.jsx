@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaFileDownload, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 const resume = () => {
   return (
@@ -15,24 +15,34 @@ const resume = () => {
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
-        <h2 className='text-center'>Resume</h2>
+        <h2 className='text-center'>Resume </h2>
+        
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center'>Akila Santhush</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/ akila-santhush-6095631bb/'
+              href='https://www.linkedin.com/in/akila-santhush-6095631bb/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
+
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/GLSana'
               target='_blank'
               rel='noreferrer'
             >
               <FaGithub size={20} style={{ marginRight: '1rem' }} />
             </a>
+            <a
+              href='https://drive.google.com/drive/u/0/folders/1WgvhIes3ZDglMoMimL80CQArX9T62y2d'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <FaFileDownload size={20} style={{ marginRight: '1rem' }} />
+            </a>
+
           </div>
         </div>
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
